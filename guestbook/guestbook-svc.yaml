@@ -1,7 +1,8 @@
-kind: Service
 apiVersion: v1
+kind: Service
 metadata:
   name: guestbook-svc
+  namespace: guestbook
 spec:
   ports:
   - port: 80
